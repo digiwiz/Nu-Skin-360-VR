@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nu Skin 360 VR", "Nu Skin 360 VR.csproj", "{988B4E48-F1D9-2AF0-E7C2-56D20609ECE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nu Skin 360 VR.Editor", "Nu Skin 360 VR.Editor.csproj", "{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nu Skin 360 VR.Editor", "Nu Skin 360 VR.Editor.csproj", "{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}"
 EndProject
@@ -21,11 +21,12 @@ Global
 		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35720B7-C3D6-1CC1-057B-713DD8BDBC8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BBD4CAAD-5721-43F8-A916-FC5C9391EF96}
 	EndGlobalSection
 EndGlobal
