@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 3260011}
   - component: {fileID: 3260010}
   - component: {fileID: 3260009}
+  - component: {fileID: 3260012}
   - component: {fileID: 3260008}
   m_Layer: 0
   m_Name: HotSpot
@@ -165,7 +166,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3260006}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -212,6 +213,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3260006}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &3260012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3260006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &65533661
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +909,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2061482, guid: 7cb8f2df2ea21bf42a5851616070652b, type: 2}
       propertyPath: m_CullingMask.m_Bits
-      value: 4294965759
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2061482, guid: 7cb8f2df2ea21bf42a5851616070652b, type: 2}
       propertyPath: m_HDR
@@ -905,7 +917,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2061482, guid: 7cb8f2df2ea21bf42a5851616070652b, type: 2}
       propertyPath: m_ClearFlags
-      value: 4
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495966, guid: 7cb8f2df2ea21bf42a5851616070652b, type: 2}
+      propertyPath: m_ShowDebugRay
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7cb8f2df2ea21bf42a5851616070652b, type: 2}
@@ -929,7 +945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &429390694
 Transform:
   m_ObjectHideFlags: 0
@@ -951,7 +967,7 @@ Camera:
   m_GameObject: {fileID: 429390693}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -1631,7 +1647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &767024205
 Transform:
   m_ObjectHideFlags: 0
@@ -1653,7 +1669,7 @@ Camera:
   m_GameObject: {fileID: 767024204}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
